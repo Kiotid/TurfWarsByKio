@@ -1,0 +1,36 @@
+database:
+  host: "localhost"
+  port: 3306
+  database: "turfwars"
+  username: "root"
+  password: ""
+
+names:
+  default:
+    bow: "&6&lBowStarter"
+    arrow: "&2&lArrows"
+
+messages:
+  prefix: "&7&l[&c&lKioTurfWars&7&l]&f"
+  no-console: "&4The command cannot be run from the console"
+  setlobby: "&2&lLobby spawn set!"
+  lobby: "&2Teleported to the &2&lLobby!"
+  setblue: "&9&lBlue spawn set!"
+  blue: "&9Game start, you are &9&lBlue!"
+  blueowner: "&9&lYou are &2&lTeam Leader!"
+  setred: "&c&lRed spawn set!"
+  red: "&cGame start, you are &c&lRed!"
+  redowner: "&c&lYou are &2&lTeam Leader!"
+  setspec: "&6&lSpectating spawn set!"
+  spec: "&cGame already started, you are in &6&lSpectating mode!"
+  setbound: "&5&lBuounds set!"
+  alreadystart: "&4&lJust started"
+  matchend: "&2The match end!"
+  wartime: "&4War time!"
+  wartimecount: "&4War time in: [countdown]"
+  buildtime: "&3Build time!"  
+  buildtimecount: "&3Build time in: [countdown]"
+  killmsg: "&6&l[killer] &ehas shot &6&l[victim]"
+
+# Placeholders
+# [countdown] - countdown

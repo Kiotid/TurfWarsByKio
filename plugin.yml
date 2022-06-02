@@ -1,0 +1,13 @@
+name: NewKioTurfWars
+main: org.rvs.newturfwars.Main
+version: 0.1
+author: everestkio
+description: TurfWars opensource plugin by Kio :D
+api-version: 1.17
+
+commands:
+    kioturfwars:
+        aliases: ktw
+        description: Command prefix
+
+permissions:
